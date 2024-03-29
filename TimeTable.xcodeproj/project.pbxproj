@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB7FC2652B5A02FA004E6809 /* TimeTableApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7FC2642B5A02FA004E6809 /* TimeTableApp.swift */; };
+		CB7FC2672B5A02FA004E6809 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7FC2662B5A02FA004E6809 /* ContentView.swift */; };
+		CB7FC2692B5A02FC004E6809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB7FC2682B5A02FC004E6809 /* Assets.xcassets */; };
+		CB7FC26C2B5A02FC004E6809 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB7FC26B2B5A02FC004E6809 /* Preview Assets.xcassets */; };
+		CB7FC2762B5A03A3004E6809 /* FetchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7FC2752B5A03A3004E6809 /* FetchData.swift */; };
+		CB7FC2782B5A03BF004E6809 /* SendDataForDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7FC2772B5A03BF004E6809 /* SendDataForDB.swift */; };
+		CB7FC27A2B5A03D6004E6809 /* ClassModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7FC2792B5A03D6004E6809 /* ClassModel.swift */; };
+		CB7FC27C2B5A03EA004E6809 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7FC27B2B5A03EA004E6809 /* MainView.swift */; };
+		CB7FC27E2B5A040C004E6809 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7FC27D2B5A040C004E6809 /* SettingsView.swift */; };
+		CB7FC2802B5A0424004E6809 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7FC27F2B5A0424004E6809 /* WelcomeView.swift */; };
+		CB7FC2822B5A0440004E6809 /* AuthorizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7FC2812B5A0440004E6809 /* AuthorizationView.swift */; };
+		CB7FC2842B5A0458004E6809 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7FC2832B5A0458004E6809 /* TestView.swift */; };
+		CB7FC2862B5A0471004E6809 /* SelectionGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7FC2852B5A0471004E6809 /* SelectionGroup.swift */; };
+		CB7FC2892B5A0490004E6809 /* MarqueeText in Frameworks */ = {isa = PBXBuildFile; productRef = CB7FC2882B5A0490004E6809 /* MarqueeText */; };
+		CB7FC28C2B5A04AD004E6809 /* SwiftUIPager in Frameworks */ = {isa = PBXBuildFile; productRef = CB7FC28B2B5A04AD004E6809 /* SwiftUIPager */; };
+		CBA283592B61C311002F6EA1 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA283582B61C311002F6EA1 /* NewsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB7FC2612B5A02FA004E6809 /* TimeTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB7FC2642B5A02FA004E6809 /* TimeTableApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableApp.swift; sourceTree = "<group>"; };
+		CB7FC2662B5A02FA004E6809 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CB7FC2682B5A02FC004E6809 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB7FC26B2B5A02FC004E6809 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CB7FC2752B5A03A3004E6809 /* FetchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchData.swift; sourceTree = "<group>"; };
+		CB7FC2772B5A03BF004E6809 /* SendDataForDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendDataForDB.swift; sourceTree = "<group>"; };
+		CB7FC2792B5A03D6004E6809 /* ClassModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassModel.swift; sourceTree = "<group>"; };
+		CB7FC27B2B5A03EA004E6809 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		CB7FC27D2B5A040C004E6809 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CB7FC27F2B5A0424004E6809 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		CB7FC2812B5A0440004E6809 /* AuthorizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationView.swift; sourceTree = "<group>"; };
+		CB7FC2832B5A0458004E6809 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		CB7FC2852B5A0471004E6809 /* SelectionGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionGroup.swift; sourceTree = "<group>"; };
+		CBA283582B61C311002F6EA1 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB7FC25E2B5A02FA004E6809 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB7FC28C2B5A04AD004E6809 /* SwiftUIPager in Frameworks */,
+				CB7FC2892B5A0490004E6809 /* MarqueeText in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB7FC2582B5A02FA004E6809 = {
+			isa = PBXGroup;
+			children = (
+				CB7FC2632B5A02FA004E6809 /* TimeTable */,
+				CB7FC2622B5A02FA004E6809 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB7FC2622B5A02FA004E6809 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB7FC2612B5A02FA004E6809 /* TimeTable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB7FC2632B5A02FA004E6809 /* TimeTable */ = {
+			isa = PBXGroup;
+			children = (
+				CB7FC2742B5A038E004E6809 /* Views */,
+				CB7FC2732B5A0382004E6809 /* Model */,
+				CB7FC2722B5A0367004E6809 /* ServerConnection */,
+				CB7FC2642B5A02FA004E6809 /* TimeTableApp.swift */,
+				CB7FC2662B5A02FA004E6809 /* ContentView.swift */,
+				CB7FC2682B5A02FC004E6809 /* Assets.xcassets */,
+				CB7FC26A2B5A02FC004E6809 /* Preview Content */,
+			);
+			path = TimeTable;
+			sourceTree = "<group>";
+		};
+		CB7FC26A2B5A02FC004E6809 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CB7FC26B2B5A02FC004E6809 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CB7FC2722B5A0367004E6809 /* ServerConnection */ = {
+			isa = PBXGroup;
+			children = (
+				CB7FC2752B5A03A3004E6809 /* FetchData.swift */,
+				CB7FC2772B5A03BF004E6809 /* SendDataForDB.swift */,
+			);
+			path = ServerConnection;
+			sourceTree = "<group>";
+		};
+		CB7FC2732B5A0382004E6809 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CB7FC2792B5A03D6004E6809 /* ClassModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB7FC2742B5A038E004E6809 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CB7FC27B2B5A03EA004E6809 /* MainView.swift */,
+				CB7FC27D2B5A040C004E6809 /* SettingsView.swift */,
+				CB7FC27F2B5A0424004E6809 /* WelcomeView.swift */,
+				CB7FC2812B5A0440004E6809 /* AuthorizationView.swift */,
+				CB7FC2832B5A0458004E6809 /* TestView.swift */,
+				CB7FC2852B5A0471004E6809 /* SelectionGroup.swift */,
+				CBA283582B61C311002F6EA1 /* NewsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB7FC2602B5A02FA004E6809 /* TimeTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB7FC26F2B5A02FC004E6809 /* Build configuration list for PBXNativeTarget "TimeTable" */;
+			buildPhases = (
+				CB7FC25D2B5A02FA004E6809 /* Sources */,
+				CB7FC25E2B5A02FA004E6809 /* Frameworks */,
+				CB7FC25F2B5A02FA004E6809 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeTable;
+			packageProductDependencies = (
+				CB7FC2882B5A0490004E6809 /* MarqueeText */,
+				CB7FC28B2B5A04AD004E6809 /* SwiftUIPager */,
+			);
+			productName = TimeTable;
+			productReference = CB7FC2612B5A02FA004E6809 /* TimeTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB7FC2592B5A02FA004E6809 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					CB7FC2602B5A02FA004E6809 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = CB7FC25C2B5A02FA004E6809 /* Build configuration list for PBXProject "TimeTable" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB7FC2582B5A02FA004E6809;
+			packageReferences = (
+				CB7FC2872B5A0490004E6809 /* XCRemoteSwiftPackageReference "MarqueeText" */,
+				CB7FC28A2B5A04AD004E6809 /* XCRemoteSwiftPackageReference "SwiftUIPager" */,
+			);
+			productRefGroup = CB7FC2622B5A02FA004E6809 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB7FC2602B5A02FA004E6809 /* TimeTable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB7FC25F2B5A02FA004E6809 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB7FC26C2B5A02FC004E6809 /* Preview Assets.xcassets in Resources */,
+				CB7FC2692B5A02FC004E6809 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB7FC25D2B5A02FA004E6809 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB7FC27E2B5A040C004E6809 /* SettingsView.swift in Sources */,
+				CB7FC2672B5A02FA004E6809 /* ContentView.swift in Sources */,
+				CB7FC27C2B5A03EA004E6809 /* MainView.swift in Sources */,
+				CB7FC2802B5A0424004E6809 /* WelcomeView.swift in Sources */,
+				CB7FC2762B5A03A3004E6809 /* FetchData.swift in Sources */,
+				CB7FC2652B5A02FA004E6809 /* TimeTableApp.swift in Sources */,
+				CB7FC2842B5A0458004E6809 /* TestView.swift in Sources */,
+				CB7FC27A2B5A03D6004E6809 /* ClassModel.swift in Sources */,
+				CB7FC2862B5A0471004E6809 /* SelectionGroup.swift in Sources */,
+				CBA283592B61C311002F6EA1 /* NewsView.swift in Sources */,
+				CB7FC2782B5A03BF004E6809 /* SendDataForDB.swift in Sources */,
+				CB7FC2822B5A0440004E6809 /* AuthorizationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CB7FC26D2B5A02FC004E6809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB7FC26E2B5A02FC004E6809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB7FC2702B5A02FC004E6809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TimeTable/Preview Content\"";
+				DEVELOPMENT_TEAM = KLKF952NDC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TimeTable/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = qqq.TimeTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB7FC2712B5A02FC004E6809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TimeTable/Preview Content\"";
+				DEVELOPMENT_TEAM = KLKF952NDC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TimeTable/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = qqq.TimeTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB7FC25C2B5A02FA004E6809 /* Build configuration list for PBXProject "TimeTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB7FC26D2B5A02FC004E6809 /* Debug */,
+				CB7FC26E2B5A02FC004E6809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB7FC26F2B5A02FC004E6809 /* Build configuration list for PBXNativeTarget "TimeTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB7FC2702B5A02FC004E6809 /* Debug */,
+				CB7FC2712B5A02FC004E6809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CB7FC2872B5A0490004E6809 /* XCRemoteSwiftPackageReference "MarqueeText" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/joekndy/MarqueeText.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		CB7FC28A2B5A04AD004E6809 /* XCRemoteSwiftPackageReference "SwiftUIPager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/fermoya/SwiftUIPager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CB7FC2882B5A0490004E6809 /* MarqueeText */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CB7FC2872B5A0490004E6809 /* XCRemoteSwiftPackageReference "MarqueeText" */;
+			productName = MarqueeText;
+		};
+		CB7FC28B2B5A04AD004E6809 /* SwiftUIPager */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CB7FC28A2B5A04AD004E6809 /* XCRemoteSwiftPackageReference "SwiftUIPager" */;
+			productName = SwiftUIPager;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CB7FC2592B5A02FA004E6809 /* Project object */;
+}
